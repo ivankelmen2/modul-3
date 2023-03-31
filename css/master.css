@@ -1,0 +1,533 @@
+body {
+  background: #000000;
+  /* overflow: hidden; */
+}
+
+
+h1{
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-size: 200px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2{
+  font-family: Druk Cyr;
+  font-weight: 700;
+  font-size: 150px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-family: Pt Root UI;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.none {
+  display: none;
+}
+
+/* FIXED BLOCK */
+
+#fixed-one {
+  position: fixed;
+  left: 20px;
+  top: 10px;
+}
+
+#fixed-two {
+  position: fixed;
+  left: 20px;
+  bottom: 10px;
+}
+
+#fixed-three {
+  position: fixed;
+  right: 20px;
+  top: 10px;
+}
+
+#fixed-four {
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+}
+
+button {
+  border: none;
+  color: #000000;
+  width: 353px;
+  height: 64px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+
+  font-family: Pt Root UI;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* button:hover {
+  background-color: #FF621F;
+  color: #FFFFFF;
+  transition: .1s;
+} */
+
+.title {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.mask {
+  width: 150px;
+  height: 150px;
+}
+  /* background-image: url("css_sprites.png");
+  animation: zero 4s steps(100) infinite;
+}
+
+.video {
+  width: 150px;
+  height: 150px;
+  border-radius: 24px;
+} */
+
+.lable {
+  position: absolute;
+  left: 75vw;
+  top: 15vh;
+  transform: rotate(360deg);
+
+  animation: rotate-lable 5s infinite linear;
+}
+
+.сharacter {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.characterk-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lable-1 {
+  opacity: 0;
+}
+
+.character-1:hover .lable-1 {
+  opacity: 100%;
+  transition: .5s;
+}
+
+.lable-2 {
+  opacity: 0;
+}
+
+.character-2:hover .lable-2 {
+  opacity: 100%;
+  transition: .5s;
+}
+
+.lable-3 {
+  opacity: 0;
+}
+
+.character-3:hover .lable-3 {
+  opacity: 100%;
+  transition: .5s;
+}
+
+.main-character {
+  position: fixed;
+  left: 400px;
+  top: 30px;
+  width: 500px;
+  display: fixed;
+  margin: 0 auto;
+}
+
+.game-selection h2:hover {
+  color: #FF621F;
+}
+
+.game-selection h2 {
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+
+.freedom{
+  position: fixed;
+}
+
+.ball {
+  width: 100px;
+  height: 100px;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url(../img/ball.png);
+}
+
+/* .ball-orange {
+  width: 300px;
+  height: 300px;
+  margin-left: 38vw;
+  margin-top: 50px;
+} */
+
+.ball-red {
+  width: 300px;
+  height: 300px;
+  margin-left: 38vw;
+  margin-top: 50px;
+}
+
+.ball-green {
+  width: 300px;
+  height: 300px;
+  margin-left: 38vw;
+  margin-top: 50px;
+}
+
+.ball1 {
+  position: absolute;
+  top: 40vh;
+  left: 80vw;
+}
+
+.ball2 {
+  position: absolute;
+  top: 49vh;
+  left:7vw;
+  transform:rotate(68deg);
+}
+
+.ball3 {
+  position: absolute;
+  top: 40vh;
+  left:36vw;
+}
+
+.ball4 {
+  position: absolute;
+  top: 32vh;
+  left:77vw;
+}
+
+.ball5 {
+  position: absolute;
+  top: 29vh;
+  left:55vw;
+  transform:rotate(24deg);
+}
+
+.ball6 {
+  position: absolute;
+  top: 63vh;
+  left:19vw;
+}
+
+.ball7 {
+  position: absolute;
+  top: 47vh;
+  left:54vw;
+  transform:rotate(52deg);
+}
+
+.ball8 {
+  position: absolute;
+  top: 35vh;
+  left:28vw;
+  transform:rotate(71deg);
+}
+
+.ball9 {
+  position: absolute;
+  top: 44vh;
+  left:31vw;
+}
+
+.ball10 {
+  position: absolute;
+  top: 22vh;
+  left:4vw;
+}
+
+.ball11 {
+  position: absolute;
+  top: 64vh;
+  left:72vw;
+  transform:rotate(32deg);
+}
+
+.ball12 {
+  position: absolute;
+  top: 45vh;
+  left:59vw;
+}
+
+.ball13 {
+  position: absolute;
+  top: 11vh;
+  left:42vw;
+  transform:rotate(92deg);
+}
+
+.ball14 {
+  position: absolute;
+  top: 15vh;
+  left:38vw;
+}
+
+.ball15 {
+  position: absolute;
+  top: 46vh;
+  left:55vw;
+  transform:rotate(42deg);
+}
+
+.ball16 {
+  position: absolute;
+  top: 66vh;
+  left:31vw;
+  transform:rotate(84deg);
+}
+
+.ball17 {
+  position: absolute;
+  top: 26vh;
+  left:82vw;
+}
+
+.ball18 {
+  position: absolute;
+  top: 43vh;
+  left:15vw;
+  transform:rotate(68deg);
+}
+
+.ball19 {
+  position: absolute;
+  top: 19vh;
+  left:17vw;
+}
+
+.ball20 {
+  position: absolute;
+  top: 46vh;
+  left:29vw;
+  transform:rotate(44deg);
+}
+
+.ball21 {
+  position: absolute;
+  top: 76vh;
+  left:52vw;
+  transform:rotate(32deg);
+}
+
+.ball22 {
+  position: absolute;
+  top: 72vh;
+  left:73vw;
+}
+
+.ball23 {
+  position: absolute;
+  top: 47vh;
+  left:15vw;
+  transform:rotate(92deg);
+}
+
+.ball24 {
+  position: absolute;
+  top: 52vh;
+  left:79vw;
+}
+
+.ball25 {
+  position: absolute;
+  top: 55vh;
+  left:23vw;
+  transform:rotate(42deg);
+}
+
+.ball26 {
+  position: absolute;
+  top: 32vh;
+  left:14vw;
+  transform:rotate(84deg);
+}
+
+.ball27 {
+  position: absolute;
+  top: 75vh;
+  left:27vw;
+}
+
+.ball28 {
+  position: absolute;
+  top: 8vh;
+  left:48vw;
+  transform:rotate(68deg);
+}
+
+.ball29 {
+  position: absolute;
+  top: 20vh;
+  left:76vw;
+}
+
+.ball30 {
+  position: absolute;
+  top: 62vh;
+  left:50vw;
+  transform:rotate(44deg);
+}
+
+.ballbig1{
+  position:absolute;
+  top: 13vh;
+  left:36vw;
+}
+
+.ballbig2{
+  position:absolute;
+  top: 13vh;
+  left:36vw;
+}
+
+.ballbig3{
+  position:absolute;
+  top: 13vh;
+  left:36vw;
+}
+
+.ballbig4{
+  position:absolute;
+  top: 13vh;
+  left:36vw;
+}
+
+.ballbig5{
+  position:absolute;
+  top: 13vh;
+  left:36vw;
+}
+
+.button1{
+  position:absolute;
+  top: 70vh;
+  left:69vw;
+}
+
+.button2{
+  position:absolute;
+  top: 70vh;
+  left:30vw;
+}
+
+.button3{
+  position:absolute;
+  top: 70vh;
+  left:43vw;
+}
+
+.button4{
+  position:absolute;
+  top: 70vh;
+  left:56vw;
+}
+
+.button5{
+  position:absolute;
+  top: 70vh;
+  left:17vw;
+}
+
+
+@keyframes rotate-lable {
+  0% {transform: rotate(0deg);
+  100% {transform: rotate(180deg);}
+}
+
+@keyframes zero {
+  from {background-position: 0px;}
+  to {background-position: -15000px;}
+
+/* .logo1 {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  margin: 0 auto;
+  animation: logo1 1.5s linear infinite;
+}
+
+@keyframes logo1 {
+  0% {opacity: 1;}
+  25% {opacity: 0;}
+  50% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+.logo2 {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  margin: 0 auto;
+  animation: logo2 1.5s linear infinite;
+}
+
+@keyframes logo2 {
+  0% {opacity: 0;}
+  25% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+.logo3 {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  margin: 0 auto;
+  animation: logo3 1.5s linear infinite;
+}
+
+@keyframes logo3 {
+  0% {opacity: 0;}
+  25% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.logo4 {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  margin: 0 auto;
+  animation: logo4 1.5s linear infinite;
+}
+
+@keyframes logo4 {
+  0% {opacity: 0;}
+  25% {opacity: 0;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+} */
