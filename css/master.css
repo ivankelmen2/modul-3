@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Druk Cyr";
-    src: url(../fonts/DrukCyr-Bold.eot);
+    src: url(../fonts/DrukCyr-Bold.ttf);
   }
 
 @font-face {
     font-family: "Pt Root UI";
-    src: url(../fonts/PT-Root-UI_Medium.eot);
+    src: url(../fonts/PT-Root-UI_Medium.ttf);
   }
 
 body {
