@@ -1,8 +1,17 @@
+@font-face {
+    font-family: "Druk Cyr";
+    src: url(../fonts/DrukCyr-Bold.eot);
+  }
+
+@font-face {
+    font-family: "Pt Root UI";
+    src: url(../fonts/PT-Root-UI_Medium.eot);
+  }
+
 body {
   background: #000000;
   /* overflow: hidden; */
 }
-
 
 h1{
   font-family: Druk Cyr;
